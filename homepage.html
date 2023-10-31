@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel = "stylesheet" href = "style.css">
+    <link rel = "stylesheet" href = "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <meta charset="UTF-8">
+    <!-- defer makes it so the browser waits until its finished parsing before running the script -->
+    <script src = "script.js" defer></script>
+    </head>
+    <body class= "show-chatbot">
+        <button class = "chatbot-toggler">
+            <span class="material-symbols-outlined">mode_comment</span>
+            <span class="material-symbols-outlined">close</span>
+        </button>
+        <div class = "chatbot">
+            <header>
+                <h1>Chatbot</h1>
+                <span class="material-symbols-outlined">close</span>
+            </header>
+            <ul class = "chatbox">
+                <li class = "chat incoming" >
+                    <span class="material-symbols-outlined">smart_toy</span>
+                    <p>Hello, this is your personal chatbot.<br>How may I help you?</p>
+                </li>
+                <!-- <li class = "chat outgoing">
+                    <p>outgoing message</p>
+                </li> -->
+            </ul>
+            <div class = "reply">
+                    <textarea placeholder = "Enter a message" required></textarea>
+                    <span class="material-symbols-outlined">send</span>
+            </div>
+        </div>
+    </body>
+</html>
